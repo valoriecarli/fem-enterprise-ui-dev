@@ -18,7 +18,7 @@ build:
     - run: npm run build
       name: Build the application
     - name: Archive build output
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: build-output
         path: dist

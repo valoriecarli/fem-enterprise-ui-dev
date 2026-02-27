@@ -14,7 +14,7 @@ test:
     - name: Run coverage report
       run: npm run coverage
     - name: Generate coverage report
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: coverage-report
         path: coverage
