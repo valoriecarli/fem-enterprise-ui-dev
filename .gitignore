@@ -34,3 +34,7 @@ random
 content/orphaned files output.md
 
 html
+
+# Playwright
+/blob-report/
+/playwright/.auth/

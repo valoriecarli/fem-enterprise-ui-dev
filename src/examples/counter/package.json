@@ -4,5 +4,9 @@
     "test": "vitest",
     "test:solution": "vitest -c vitest.config.solution.ts",
     "test:svelte": "vitest -c vitest.config.svelte.ts"
+  },
+  "dependencies": {
+    "vite": "4.5.14",
+    "vitest": "^4.0.18"
   }
 }

@@ -4,7 +4,14 @@ import ObstacleCourse from '.';
 
 expect.extend(toHaveNoViolations);
 
-it('should demonstrate this matcher`s usage', async () => {
+// it('should demonstrate this matcher`s usage', async () => {
+//   const { container } = render(<ObstacleCourse />);
+//   const results = await axe(container);
+
+//   expect(results).toHaveNoViolations();
+// });
+
+it('should be accessible', async () => {
   const { container } = render(<ObstacleCourse />);
   const results = await axe(container);
 
