@@ -19,7 +19,8 @@ export default defineConfig({
       ['**/*.component.test.ts', 'jsdom'],
     ],
     coverage: {
-      statements: 54.92,
+      provider: 'c8',
+      statements: 60.49,
       thresholdAutoUpdate: true,
       include: ['src/**/*'],
       exclude: [
